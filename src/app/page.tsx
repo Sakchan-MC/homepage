@@ -1,10 +1,18 @@
 import Image from "next/image";
-import styles from "./pagestyle.css";
-
+import "./pagestyle.css";
+import { Container, Row, Col } from "react-bootstrap";
 export default function Home() {
   return (
     <>
-    เป็นควยไรจ๊ะ
+      <Container>
+        <Row className="  ">
+          <Col className="topwidth d-flex align-items-center justify-content-center">
+          <h1 >
+            เป็นควยไรจ๊ะ
+            </h1>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }
